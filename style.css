@@ -1,0 +1,76 @@
+.first-wrapper,
+.second-wrapper {
+  width: 400px;
+}
+
+.first,
+.third,
+.fourth,
+.sixth {
+  background-color: #239ec6;
+  height: 50px;
+  position: relative;
+}
+
+.second,
+.fifth {
+  height: 200px;
+}
+
+.first p,
+.third p,
+.fourth p,
+.sixth p {
+  position: absolute;
+  left: 37%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second-left,
+.second-right,
+.fifth-left,
+.fifth-right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.second-left p,
+.second-right p,
+.fifth-left p,
+.fifth-right p {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second-left {
+  background-color: #9191fb;
+  float: left;
+}
+
+.second-right {
+  background-color: #ade4f6;
+  float: right;
+}
+
+.fifth {
+  display: flex;
+}
+
+.fifth-left {
+  background-color: #9191fb;
+}
+
+.fifth-right {
+  background-color: #ade4f6;
+}
+
+p {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
